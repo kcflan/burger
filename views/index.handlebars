@@ -33,7 +33,11 @@
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
-        {{> burgers/burger-block devour=true}}
+        {{!-- {{> burgers/burger-block devour=true}} --}}
+        {{> burgers/burger-devoured devour=true}}
+        {{!-- <li>
+          {{this.id}}. {{this.name}}
+        </li> --}}
         {{/unless}}
         {{/each}}
       </ul>
