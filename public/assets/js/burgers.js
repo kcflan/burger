@@ -27,9 +27,10 @@ $(function() {
       name: $('#ca')
         .val()
         .trim(),
-      devoured: $('[name=devoured]:checked')
-        .val()
-        .trim()
+      devoured: 1
+      // devoured: $('[name=devoured]:checked')
+      //   .val()
+      //   .trim()
     };
 
     // Send the POST request.

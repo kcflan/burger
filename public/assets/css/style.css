@@ -1,7 +1,16 @@
 li {
-  padding: 5px;
+  padding: 20px;
   margin: 5px;
-  background: #e3d7fa;
+  /* background: #dbdbdb; */
+  border: solid 1px gray;
+  list-style: none;
+}
+li button {
+  float: right;
+  margin: 0 5px 0 5px;
+}
+ul {
+  padding: 0;
 }
 
 .label {
@@ -16,4 +25,17 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+.jumbotron {
+  background-image: url('../img/burger-header.jpg');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-image: url('../img/cricket-burger.jpg');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 300px;
 }
