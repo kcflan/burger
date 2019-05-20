@@ -10,4 +10,4 @@ The application is implemented using a [Node.js](https://nodejs.org/en/) and [Ex
 
 ## Demo
 
-This here _Burger_ is deployed to my Heroku. Please check it out [here](https://serene-gorge-83435.herokuapp.com/).
+This here _Burger_ is deployed to my Heroku. Please check it out [here](https://tranquil-castle-20899.herokuapp.com/).
